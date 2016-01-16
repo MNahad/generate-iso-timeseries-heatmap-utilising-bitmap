@@ -1,3 +1,3 @@
 import sys
 import datetime
-from PIL import
+from PIL import Image
