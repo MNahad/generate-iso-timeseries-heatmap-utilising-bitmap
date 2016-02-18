@@ -7,4 +7,4 @@ from typing import Callable
 import numpy.typing as npt
 
 
-def g
+def get_img
