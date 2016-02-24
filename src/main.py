@@ -7,4 +7,5 @@ from typing import Callable
 import numpy.typing as npt
 
 
-def get_img_array(path: str) -> npt.NDArr
+def get_img_array(path: str) -> npt.NDArray:
+  
