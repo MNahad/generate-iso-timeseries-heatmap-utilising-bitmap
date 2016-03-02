@@ -9,4 +9,4 @@ import numpy.typing as npt
 
 def get_img_array(path: str) -> npt.NDArray:
     _img = Image.open(path).convert('L')
-    return np.a
+    return np.array(_
