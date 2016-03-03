@@ -12,4 +12,4 @@ def get_img_array(path: str) -> npt.NDArray:
     return np.array(_img)
 
 
-def c
+def convert
