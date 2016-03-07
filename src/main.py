@@ -12,4 +12,4 @@ def get_img_array(path: str) -> npt.NDArray:
     return np.array(_img)
 
 
-def convert_days_of_year_to_dates(year: i
+def convert_days_of_year_to_dates(year: int) ->
