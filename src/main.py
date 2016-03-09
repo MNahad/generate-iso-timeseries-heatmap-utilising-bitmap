@@ -12,4 +12,5 @@ def get_img_array(path: str) -> npt.NDArray:
     return np.array(_img)
 
 
-def convert_days_of_year_to_dates(year: int) -> Callable[[int], s
+def convert_days_of_year_to_dates(year: int) -> Callable[[int], str]:
+ 
