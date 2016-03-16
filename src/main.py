@@ -14,4 +14,4 @@ def get_img_array(path: str) -> npt.NDArray:
 
 def convert_days_of_year_to_dates(year: int) -> Callable[[int], str]:
     _d = datetime.date.fromisocalendar(year, 1, 1)
-    return lambda day:
+    return lambda day: (_d +
