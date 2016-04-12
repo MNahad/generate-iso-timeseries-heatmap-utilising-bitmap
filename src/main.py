@@ -17,4 +17,4 @@ def convert_days_of_year_to_dates(year: int) -> Callable[[int], str]:
     return lambda day: (_d + datetime.timedelta(day)).isoformat()
 
 
-def save
+def save_csv(d
