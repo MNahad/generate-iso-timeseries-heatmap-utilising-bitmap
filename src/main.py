@@ -19,4 +19,4 @@ def convert_days_of_year_to_dates(year: int) -> Callable[[int], str]:
 
 def save_csv(data: list[tuple[str, int]], path: str) -> None:
     _df = pd.DataFrame(data, columns=['date', 'value'])
-    _df.to_csv(path, i
+    _df.to_csv(path, index=N
