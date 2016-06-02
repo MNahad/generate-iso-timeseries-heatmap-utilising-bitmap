@@ -21,3 +21,5 @@ def save_csv(data: list[tuple[str, int]], path: str) -> None:
     _df = pd.DataFrame(data, columns=['date', 'value'])
     _df.to_csv(path, index=None)
 
+
+if __
