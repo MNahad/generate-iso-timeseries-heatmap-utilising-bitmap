@@ -22,4 +22,5 @@ def save_csv(data: list[tuple[str, int]], path: str) -> None:
     _df.to_csv(path, index=None)
 
 
-if __name__ == "__main_
+if __name__ == "__main__":
+  
