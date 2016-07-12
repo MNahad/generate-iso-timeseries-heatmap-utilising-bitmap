@@ -24,4 +24,4 @@ def save_csv(data: list[tuple[str, int]], path: str) -> None:
 
 if __name__ == "__main__":
     YEAR = datetime.datetime.now().year
-    IMG_PATH = '
+    IMG_PATH = 'img.bm
