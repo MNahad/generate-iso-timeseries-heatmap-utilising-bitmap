@@ -26,4 +26,5 @@ if __name__ == "__main__":
     YEAR = datetime.datetime.now().year
     IMG_PATH = 'img.bmp'
     CSV_PATH = 'csv.csv'
-    REVERSE_HEATMAP 
+    REVERSE_HEATMAP = 1
+  
