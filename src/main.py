@@ -27,4 +27,4 @@ if __name__ == "__main__":
     IMG_PATH = 'img.bmp'
     CSV_PATH = 'csv.csv'
     REVERSE_HEATMAP = 1
-    arg_len = 
+    arg_len = len(sy
