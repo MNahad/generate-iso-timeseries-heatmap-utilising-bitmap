@@ -28,4 +28,4 @@ if __name__ == "__main__":
     CSV_PATH = 'csv.csv'
     REVERSE_HEATMAP = 1
     arg_len = len(sys.argv)
-    if arg
+    if arg_len >
