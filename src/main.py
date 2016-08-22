@@ -29,4 +29,4 @@ if __name__ == "__main__":
     REVERSE_HEATMAP = 1
     arg_len = len(sys.argv)
     if arg_len > 1:
-        
+        YEAR =
