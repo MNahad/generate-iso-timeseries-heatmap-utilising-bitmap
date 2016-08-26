@@ -30,3 +30,4 @@ if __name__ == "__main__":
     arg_len = len(sys.argv)
     if arg_len > 1:
         YEAR = int(sys.argv[1])
+    if
