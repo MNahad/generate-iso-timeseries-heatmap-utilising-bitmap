@@ -32,4 +32,4 @@ if __name__ == "__main__":
         YEAR = int(sys.argv[1])
     if arg_len > 2:
         IMG_PATH = sys.argv[2]
-   
+    if ar
