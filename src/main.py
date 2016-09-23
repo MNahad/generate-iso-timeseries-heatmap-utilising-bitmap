@@ -33,4 +33,4 @@ if __name__ == "__main__":
     if arg_len > 2:
         IMG_PATH = sys.argv[2]
     if arg_len > 3:
-        CSV_P
+        CSV_PATH = 
