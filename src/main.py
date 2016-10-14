@@ -35,4 +35,4 @@ if __name__ == "__main__":
     if arg_len > 3:
         CSV_PATH = sys.argv[3]
     if arg_len > 4:
-        REVERSE_HEATMAP = in
+        REVERSE_HEATMAP = int(sys.
