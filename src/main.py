@@ -37,4 +37,4 @@ if __name__ == "__main__":
     if arg_len > 4:
         REVERSE_HEATMAP = int(sys.argv[4])
 
-    arr 
+    arr = get_
