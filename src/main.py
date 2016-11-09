@@ -38,4 +38,4 @@ if __name__ == "__main__":
         REVERSE_HEATMAP = int(sys.argv[4])
 
     arr = get_img_array(IMG_PATH).flatten('F')
-    if RE
+    if REVERSE_
