@@ -40,4 +40,4 @@ if __name__ == "__main__":
     arr = get_img_array(IMG_PATH).flatten('F')
     if REVERSE_HEATMAP:
         arr = 255 - arr
-    conve
+    conversion_
