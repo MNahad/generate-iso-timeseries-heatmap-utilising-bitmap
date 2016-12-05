@@ -40,4 +40,5 @@ if __name__ == "__main__":
     arr = get_img_array(IMG_PATH).flatten('F')
     if REVERSE_HEATMAP:
         arr = 255 - arr
-    conversion_fn = convert_days_of_year_to_dates(Y
+    conversion_fn = convert_days_of_year_to_dates(YEAR)
+
