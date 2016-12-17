@@ -42,4 +42,4 @@ if __name__ == "__main__":
         arr = 255 - arr
     conversion_fn = convert_days_of_year_to_dates(YEAR)
 
-    idx = (arr > 0).nonz
+    idx = (arr > 0).nonzero()[
