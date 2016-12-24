@@ -43,4 +43,4 @@ if __name__ == "__main__":
     conversion_fn = convert_days_of_year_to_dates(YEAR)
 
     idx = (arr > 0).nonzero()[0]
-    dates = [(conversion_fn
+    dates = [(conversion_fn(int(i
