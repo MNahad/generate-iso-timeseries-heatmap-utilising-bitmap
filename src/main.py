@@ -43,4 +43,5 @@ if __name__ == "__main__":
     conversion_fn = convert_days_of_year_to_dates(YEAR)
 
     idx = (arr > 0).nonzero()[0]
-    dates = [(conversion_fn(int(i)), int(arr[
+    dates = [(conversion_fn(int(i)), int(arr[i])) for i in idx]
+    save_csv(dates, CSV_PATH)
